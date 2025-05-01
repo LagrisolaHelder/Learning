@@ -84,3 +84,10 @@ let num = parseFloat(strNum);
 console.log(num); // Output: 123.45
 console.log(typeof num); // Output: number
 
+
+// 2. Number to String
+let numToStr = 123.45;
+let str = numToStr.toString();
+console.log(str); // Output: "123.45"
+console.log(typeof str); // Output: string
+
