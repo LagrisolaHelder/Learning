@@ -2,3 +2,79 @@
 // 1. String
 let name = "John Doe";
 console.log(name); // Output: John Doe
+
+
+// 2. Number
+let age = 30;   
+console.log(age); // Output: 30
+
+// 3. Boolean
+let isStudent = true;
+console.log(isStudent); // Output: true
+
+// 4. Undefined
+let address;
+console.log(address); // Output: undefined
+
+// 5. Null
+let car = null;
+console.log(car); // Output: null
+
+// 6. Symbol (ES6)
+let uniqueId = Symbol("id");
+console.log(uniqueId); // Output: Symbol(id)
+
+// 7. BigInt (ES11)
+let bigNumber = BigInt(1234567890123456789012345678901234567890);
+console.log(bigNumber); // Output: 1234567890123456789012345678901234567890n
+
+// 8. Object
+let person = {
+    name: "John Doe",
+    age: 30,
+    isStudent: true
+};
+
+console.log(person); // Output: { name: 'John Doe', age: 30, isStudent: true }
+console.log(person.name); // Output: John Doe
+console.log(person["age"]); // Output: 30
+console.log(person.isStudent); // Output: true
+console.log(person["isStudent"]); // Output: true
+
+// 9. Array
+let fruits = ["apple", "banana", "cherry"];
+console.log(fruits); // Output: [ 'apple', 'banana', 'cherry' ]
+console.log(fruits[0]); // Output: apple
+console.log(fruits[1]); // Output: banana
+console.log(fruits[2]); // Output: cherry
+console.log(fruits.length); // Output: 3
+console.log(fruits[fruits.length - 1]); // Output: cherry
+console.log(fruits[fruits.length - 2]); // Output: banana
+console.log(fruits[fruits.length - 3]); // Output: apple
+ 
+
+// 10. Function
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greet("John")); // Output: Hello, John!
+console.log(greet("Jane")); // Output: Hello, Jane!
+ 
+
+// 11. Date
+let currentDate = new Date();
+console.log(currentDate); // Output: Current date and time
+console.log(currentDate.getFullYear()); // Output: Current year
+console.log(currentDate.getMonth()); // Output: Current month (0-11)
+console.log(currentDate.getDate()); // Output: Current date (1-31)
+console.log(currentDate.getHours()); // Output: Current hour (0-23)
+console.log(currentDate.getMinutes()); // Output: Current minutes (0-59)
+console.log(currentDate.getSeconds()); // Output: Current seconds (0-59)
+console.log(currentDate.getMilliseconds()); // Output: Current milliseconds (0-999)
+console.log(currentDate.getTime()); // Output: Current timestamp (milliseconds since Jan 1, 1970)
+ 
+//there are many more data types in JavaScript, but these are the most commonly used ones.
+// You can also create custom data types using classes and prototypes, but those are more advanced topics.
+
+
+ 
