@@ -91,3 +91,50 @@ let str = numToStr.toString();
 console.log(str); // Output: "123.45"
 console.log(typeof str); // Output: string
 
+
+// 3. String to Boolean
+let strBool = "true";
+let bool = (strBool === "true");
+console.log(bool); // Output: true
+console.log(typeof bool); // Output: boolean
+
+// 4. Boolean to String
+let boolToStr = true;
+let strFromBool = boolToStr.toString();
+console.log(strFromBool); // Output: "true"
+console.log(typeof strFromBool); // Output: string
+
+// 5. Number to Boolean
+let numToBool = 0; // 0 is falsy
+let boolFromNum = Boolean(numToBool);
+console.log(boolFromNum); // Output: false
+console.log(typeof boolFromNum); // Output: boolean
+
+
+// 6. Boolean to Number
+let boolToNum = true; // true is 1
+let numFromBool = Number(boolToNum);
+console.log(numFromBool); // Output: 1
+console.log(typeof numFromBool); // Output: number
+
+// 7. Null to Number
+let nullToNum = null; // null is 0
+let numFromNull = Number(nullToNum);
+console.log(numFromNull); // Output: 0
+console.log(typeof numFromNull); // Output: number
+
+// 8. Undefined to Number
+let undefinedToNum = undefined; // undefined is NaN
+let numFromUndefined = Number(undefinedToNum);
+console.log(numFromUndefined); // Output: NaN
+console.log(typeof numFromUndefined); // Output: number
+
+// 9. String to Array
+let strToArray = "apple,banana,cherry";
+let arrayFromStr = strToArray.split(",");
+
+console.log(arrayFromStr); // Output: [ 'apple', 'banana', 'cherry' ]
+console.log(typeof arrayFromStr); // Output: object (arrays are objects in JavaScript)
+
+
+
