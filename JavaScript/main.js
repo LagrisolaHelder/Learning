@@ -77,4 +77,10 @@ console.log(currentDate.getTime()); // Output: Current timestamp (milliseconds s
 // You can also create custom data types using classes and prototypes, but those are more advanced topics.
 
 
- 
+ // Data Type Conversion
+// 1. String to Number
+let strNum = "123.45";
+let num = parseFloat(strNum);
+console.log(num); // Output: 123.45
+console.log(typeof num); // Output: number
+
