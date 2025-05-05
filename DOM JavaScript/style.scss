@@ -5,6 +5,15 @@
     font-family: sans-serif;
 }
 .container{
+    .store{
+        position: absolute;
+        padding: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        
+        top: 0;
+
+    }
     display: flex;
     justify-content: center;
     align-items: center;
