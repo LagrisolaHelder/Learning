@@ -10,8 +10,11 @@
     align-items: center;
     height: 100vh;
     background-color: #ffffff;
+    gap: 20px;
+    flex-wrap: wrap;
     .card{
         border: 1px solid #ccc;
+       
         width: 200px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.096);
         height: 200px;
@@ -40,8 +43,9 @@
         }        
         .image{
             position: absolute;
+            padding: 18px;
        
-            top: -12px;
+          
 
         height: 100%;
         width: 100%;

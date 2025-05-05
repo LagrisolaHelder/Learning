@@ -11,6 +11,8 @@
   align-items: center;
   height: 100vh;
   background-color: #ffffff;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .container .card {
   border: 1px solid #ccc;
@@ -40,7 +42,7 @@
 }
 .container .card .image {
   position: absolute;
-  top: -12px;
+  padding: 18px;
   height: 100%;
   width: 100%;
 }
