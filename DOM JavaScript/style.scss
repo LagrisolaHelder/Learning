@@ -12,14 +12,18 @@
     background-color: #ffffff;
     .card{
         border: 1px solid #ccc;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.096);
+        height: 200px;
         position: relative;
         display: flex;
+        cursor: pointer;
         justify-content: center;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
+        
+       
         .price{
             position: absolute;
             color: white;
@@ -28,12 +32,16 @@
             bottom: 0;
             right: 0;
             border-radius: 20px 0 0;
+            h2{
+                font-size: 15px;
+                font-weight: 600;
+            }
 
         }        
         .image{
             position: absolute;
        
-            top: -20px;
+            top: -12px;
 
         height: 100%;
         width: 100%;
